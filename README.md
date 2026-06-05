@@ -7,7 +7,6 @@ Implementation of the Cox-Ingersoll-Ross (1985) short-rate model, calibrated on 
 - **Data preprocessing** — outlier detection, interpolation, missing value handling
 - **Base CIR** — MLE calibration on the 3M yield, closed-form yield curve reconstruction
 - **Two-Factor CIR** — Longstaff-Schwartz (1992), hidden state recovery via 2×2 inversion, drift-only test propagation
-- **CIR++** — deterministic shift correction with rolling window stabilisation
 
 ## Results
 
